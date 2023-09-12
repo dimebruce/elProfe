@@ -20,11 +20,18 @@ function App() {
       <h1>Informática lll</h1>
       <h2> Parcial l - Excel</h2>
       <div>
-      <img src={excelLogo} className="excel" alt="React logo" />
+        <img src={excelLogo} className="excel" alt="React logo" />
       </div>
-      <a href="excelFormulasStudent.xlsx">
-        <span>👉 Descargar este archivo</span>
-      </a>
+      <div>
+        <a href="tablasDinamicas.xlsx">
+          <span>👉 tablasDinamicas (Descarga)</span>
+        </a>
+      </div>
+      <div>
+        <a href="excelFormulasStudent.xlsx">
+          <span>👉 excelFormulas ✅</span>
+        </a>
+      </div>
     </>
   );
 }
