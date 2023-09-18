@@ -24,7 +24,7 @@ function App() {
       </div> */}
       {/* La parte para que no aparezcan videos de otros canales cuando se pausa el video es esta
       rel=0&amp;showinfo=0 */}
-      <div className="mb-5">
+      <div className="mb-5 frame-container">
         <iframe
           width="560"
           height="315"
